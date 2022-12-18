@@ -7,26 +7,35 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header">
-            <h1>Metric/Imperial Unit Conversion</h1>
-            <input id="num-input" type="text">
-            <button id="num-btn">Convert</button>
-        </div>
-
-        <div id="results">
-            <div id="length" class="section">
-                <h2>Length (Meter/Feet)</h2>
-                <p id="length-output"></p>
+        <header>
+            <div id="header">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input id="num-input" type="text">
+                <button id="num-btn">Convert</button>
             </div>
-            <div id="volume" class="section">
-                <h2>Volume (Liters/Gallons)</h2>
-                <p id="volume-output"></p>
+        </header>
+        <main>
+            <div id="results">
+                <section>
+                    <div id="length" class="section">
+                        <h2>Length (Meter/Feet)</h2>
+                        <p id="length-output"></p>
+                    </div>
+                </section>
+                <section>
+                    <div id="volume" class="section">
+                        <h2>Volume (Liters/Gallons)</h2>
+                        <p id="volume-output"></p>
+                    </div>
+                </section>
+                <section>
+                    <div id="mass" class="section">
+                        <h2>Mass (Kilograms/Pounds)</h2>
+                        <p id="mass-output"></p>
+                    </div>
+                </section>
             </div>
-            <div id="mass" class="section">
-                <h2>Mass (Kilograms/Pounds)</h2>
-                <p id="mass-output"></p>
-            </div>
-        </div>
+        </main>
         <script src="index.js"></script>
     </body>
 </html>
